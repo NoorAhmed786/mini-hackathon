@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./assets/images/kababjees-bakers-new-logo.png">
+  <script src="https://kit.fontawesome.com/86cffd254e.js" crossorigin="anonymous"></script>
+  <script>
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  let y = document.forms["myForm"]["email"].value;
+  let z = document.forms["myForm"]["Number"].value;
+  let a = document.forms["myForm"]["subject"].value;
+  let b = document.forms["myForm"]["Message"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }else if (y == "") {
+    alert("Name must be filled out");
+    return false;
+    
+  } else if (z == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  else if (a == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  else if (b == "") {
+    alert("Name must be filled out");
+    return false;
+  }else{
+    alert(" the message has submitted");
+    return true;
+  }
+  
+};
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="tag_list">
+      <div class="varities"><a href="#">Deals</a></div>
+      <div class="varities"><a href="#">Cakes</a></div>
+      <div class="varities"><a href="#">Cup Cakes</a></div>
+      <div class="varities"><a href="#">Brownies</a></div>
+      <div class="varities"><a href="#">Sundae</a></div>
+      <div class="varities"><a href="#">Cake BUcket</a></div>
+      <div class="varities"><a href="#">Biscuit</a></div>
+      <div class="varities"><a href="#">Ice cream</a></div>
+      <div class="varities"><a href="#">Chips&Nimcos</a></div>
+      <div class="varities"><a href="#">sweats</a></div>
+      <div class="varities"><a href="#">savory</a></div>
+      <div class="varities"><a href="#">Breakfast</a></div>
+
+    </div>
+    <div id="header1">
+      <nav class="nav_bar">
+        <div class="logo">
+          <a href="#"><img src="./assets/images/kababjees-bakers-new-logo.png" alt="logo" width="80%" height="80%"></a>
+        </div>
+        <div class="nav_list">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">BANK OFFERS</a></li>
+            <li><a href="location.html">LOCATIONS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><button class="nav_btn"><a href="#" id="order">ORDER NOW</a></button></li>
+          </ul>
+
+
+        </div>
+
+
+      </nav>
+
+    </div>
+
+    <div class="banner2" id="bg-bnr-2" data-aos="zoom-out">
+      <h2>CONTACT US</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, expedita?</p>
+      <!-- <img src="./assets/images/istockphoto-514628322-612x612.jpg" width="100%" height="100%"alt="banner"> -->
+      <!-- <img src="./assets/images/istockphoto-1487678556-612x612.jpg" alt="">
+      <img src="./assets/images/istockphoto-1428437700-612x612.jpg" alt="">
+      <img src="./assets/images/istockphoto-1453314674-612x612.jpg" alt="">
+      <img src="./assets/images/istockphoto-1341080014-612x612.jpg" alt=""> -->
+
+    </div>
+    <!-- <div class="bnr_header" id="bnr2">
+      <img src="./assets/images/SLIDER-2.png" alt="" width="50%">
+    </div> -->
+
+  </header>
+  <main>
+    <div class="contact-form" id="cont-fom">
+      <div class="form" id="cntact" data-aos="zoom-out">
+        <h3>Send Us a Message</h3>
+        <div class="inner-form">
+          <form id="form-validate" method="post">
+            <input type="text" name="fname" id="text" placeholder="Name" required><br>
+            <input type="email" name="email" id="email" placeholder="Email" required><br>
+            <input type="tel"  name="number" id="number"  placeholder="Numbers" required><br>
+            <input type="text" name="subject" id="subject" placeholder="Subject" required><br>
+            <input type="text" name="Message" id="Message" placeholder="Message" required><br>
+            <input type="button" id="submit" class="btn-form" value="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footeer -->
+
+  <div class="footer">
+    <div class="footer-2">
+      <div class="foot">
+        <div class="para">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab sit voluptatem voluptatibus corrupti
+            laboriosam veritatis, quos, qui quae odio aliquam, perspiciatis praesentium accusamus quam? Suscipit, ullam?
+            Blanditiis corrupti recusandae explicabo!</p>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="foot-logo">
+          <a href="#"><img src="./assets/images/kababjees-bakers-new-logo.png" alt="logo" width="100%"
+              height="100%"></a>
+          <div class="contact">
+            <div class="contact_icon">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="contact_icon">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+            <div class="contact_icon">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="foot-icon">
+          <div class="icon"></div>
+          <div class="icon"></div>
+          <div class="icon"></div>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="foot-list">
+          <ul>
+            <li>cake</li>
+            <li>Sweats</li>
+            <li>Nimcos</li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="foot-location">
+          <ul>
+            <li>LOCATIONS</li>
+            <li>MENU</li>
+            <li>CONTACT US</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="foot-placement">
+      <hr>
+      <div class="foot-described">
+        <p>Copyright © 2023 Kababjees Bakers</p>
+      </div>
+      <div class="foot-described" id="des-2">
+        <p class="des"> Designed & Developed by </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000,
+    })
+
+  </script>
+</body>
+
+</html>
